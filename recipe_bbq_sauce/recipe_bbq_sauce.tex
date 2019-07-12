@@ -1,30 +1,18 @@
 \documentclass[
   DIV=11,% DIV Faktor für Satzspiegelberechnung - muss bei anderen Schriftgrößen als 11pt angepasst werden , sie Doku zu KOMA Script
-  headinclude=true,
-  footinclude=false,
   pagesize,% write pagesize to DVI or PDF
   fontsize=11pt,% use this font size
   paper=a4,% use ISO A4
 ]{scrartcl}
 
 \usepackage[utf8]{inputenc}
-\usepackage{makeidx}
-\usepackage{amsfonts}
-% \usepackage[slantedGreek,sc]{mathpazo}% Schriftart Palatino
-\usepackage{lmodern}% statt mathpazo, falls CM fonts verwendet werden sollen
-\usepackage[scaled=.95]{helvet}
-\usepackage{courier}
+\usepackage[sfdefault, scaled=.95, book]{FiraSans}
 \usepackage[T1]{fontenc}
 \usepackage{textcomp}
-\usepackage{amsmath}% standard math notation (vectors/sets/...)
-\usepackage{bm}% standard math notation (fonts)
-\usepackage{fixmath}% standard math notation (fonts)
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{subcaption}
-\usepackage{scrlayer-scrpage}
 \usepackage[ngerman]{babel}
-\usepackage{ellipsis}% Korrigiert den Weißraum um Auslassungspunkte
 \usepackage{microtype}% optischer Randausgleich etc.
 \usepackage[nonumber]{cuisine}
 
@@ -35,7 +23,8 @@
 \begin{recipe}{BBQ-Sauce} {750ml} {60 Minuten}
 
 \freeform
-\textit{Ergibt eine scharfe und würzige BBQ-Sauce.}
+\textit{Ergibt eine würzige und leicht scharfe BBQ-Sauce.
+Je nach verwendetem Whisky sind unterschiedliche Geschmacksnoten möglich.}
 
 \ingredient[1]{x}{Zwiebel}
 \ingredient[2]{x}{Knoblauchzehe}
@@ -43,7 +32,7 @@
 \ingredient[300]{g}{Tomaten}
 \ingredient[1]{EL}{Rapsöl}
 
-Zwiebel, Knoblauchzehen und Apfel schälen und fein würfeln.
+Zuerst Zwiebel, Knoblauchzehen und Apfel schälen und fein würfeln.
 Tomaten würfeln.
 Rapsöl in einer beschichteten Pfanne erhitzen und die Zwiebel darin anbraten.
 
@@ -62,8 +51,9 @@ Nach weiteren 2 Minuten Tomatenmark, Rohrzucker, Apfelessig, Worcestersauce und 
 Dann 1/2 TL Chilipulver, 2 TL Paprikapulver, 1/2 TL Pfeffer und 1 TL Meersalz zugeben.
 
 \newstep
-Die Sauce ca. 30-40 Min. bei schwacher Hitze köcheln.
-Sauce pürieren und sofort in eine saubere Flasche füllen
+Die Sauce ca. 30-40 Min. bei schwacher Hitze köcheln lassen.
+Sauce pürieren und sofort in eine saubere Flasche füllen.
+Anschließend über Nacht ziehen lassen.
 
 \freeform
 \hrulefill
