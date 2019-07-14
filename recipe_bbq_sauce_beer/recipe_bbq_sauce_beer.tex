@@ -1,0 +1,70 @@
+\documentclass[
+  DIV=11,% DIV Faktor für Satzspiegelberechnung - muss bei anderen Schriftgrößen als 11pt angepasst werden , sie Doku zu KOMA Script
+  pagesize,% write pagesize to DVI or PDF
+  fontsize=11pt,% use this font size
+  paper=a4,% use ISO A4
+]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[sfdefault, scaled=.95, book]{FiraSans}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[ngerman]{babel}
+\usepackage{microtype}% optischer Randausgleich etc.
+\usepackage[nonumber]{cuisine}
+\usepackage{nicefrac}
+
+\selectlanguage{ngerman}
+\pagenumbering{gobble}
+
+\begin{document}
+\begin{recipe}{BBQ-Sauce mit Kellerbier} {600ml} {35 Minuten}
+
+\freeform
+\textit{Ergibt eine würzige BBQ-Sauce mit malziger Bier Note, die zu gegrilltem Fleisch aller Art passt.}
+
+\ingredient[340]{ml}{Kellerbier süffig}
+\ingredient[400]{ml}{Tomaten passiert}
+\ingredient[8]{EL}{Honig}
+\ingredient[4]{EL}{Olivenöl}
+\ingredient[4]{EL}{Worcester Sauce}
+\ingredient[2]{EL}{Tomatenmark}
+\ingredient[2]{TL}{Dijon-Senf}
+\ingredient[2]{x}{Knoblauchzehe}
+\ingredient[1]{TL}{Salz}
+\ingredient[1]{TL}{Pfeffer}
+\ingredient[\fr12]{TL}{Paprikapulver geräuchert}
+\ingredient[\fr12]{TL}{Chipotle Chili}
+
+Zunächst Zwiebel abziehen und in feine Würfel schneiden.
+Den Knoblauch ebenfalls abziehen und fein hacken.
+Das Öl in einem Topf erhitzen und darin die Zwiebeln und den Knoblauch glasig anschwitzen.
+Das Ganze nun mit dem Kellerbier ablöschen.
+Die passierten Tomaten, den Senf, den Honig, die Worcester Sauce, den Pfeffer, die Chipotle Chili, die geräucherte Paprika und das Salz einrühren.
+Anschließend kurz aufkochen lassen.
+
+\newstep
+Bei geringer Hitze die Sauce etwa 20 Minuten köcheln lassen.
+Zum Abschluss die Sauce abschmecken und ggf. nachwürzen.
+Anschließend über Nacht ziehen lassen.
+
+\freeform
+\hrulefill
+
+\freeform 
+\textbf{Hitzestufe:}
+Hitzestufe 7 zum Anbraten und Hitzestufe 4-5 zum köcheln lassen.
+
+\freeform 
+\textbf{Haltbarkeit:}
+Hält sich im Kühlschrank mehrere Wochen.
+
+\freeform 
+\textbf{Tipp:}
+Zur Verwendung als Glasur für Grillgut die Soße weniger lange einkochen lassen, sodass sie eine dünnflüssige Konsistenz behält.
+
+\end{recipe}
+\end{document}
