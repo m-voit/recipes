@@ -1,0 +1,50 @@
+\documentclass[
+  DIV=11,% DIV Faktor für Satzspiegelberechnung - muss bei anderen Schriftgrößen als 11pt angepasst werden , sie Doku zu KOMA Script
+  pagesize,% write pagesize to DVI or PDF
+  fontsize=11pt,% use this font size
+  paper=a4,% use ISO A4
+]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[sfdefault, scaled=.95, book]{FiraSans}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[ngerman]{babel}
+\usepackage{microtype}% optischer Randausgleich etc.
+\usepackage[nonumber]{cuisine}
+\usepackage{nicefrac}
+
+\selectlanguage{ngerman}
+\pagenumbering{gobble}
+
+\begin{document}
+\begin{recipe}{Chipotle Chili Butter} {500g} {10 Minuten}
+
+\freeform
+\textit{Ergibt eine würzig scharfe Chipotle Chili Butter.}
+
+\ingredient[1]{Paket}{Butter}
+\ingredient[1]{TL}{Chipotle Chili}
+\ingredient[\fr12]{TL}{Paprikapulver geräuchert}
+\ingredient[\fr12]{TL}{Chilipulver}
+\ingredient[1]{Prise}{Salz}
+
+Zuerst Chipotle Chili Flocken mit einem Mörser zerkleinern.
+Anschließend die restlichen Zutaten mit der zimmerwarmen Butter vermengen.
+Nach Bedarf mit Salz abschmecken.
+
+\newstep
+Im Kühlschrank über Nacht ziehen lassen
+
+\freeform
+\hrulefill
+
+\freeform 
+\textbf{Haltbarkeit:}
+Hält sich im Kühlschrank ca. 1 Woche.
+
+\end{recipe}
+\end{document}
