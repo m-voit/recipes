@@ -1,0 +1,59 @@
+\documentclass[
+  DIV=11,% DIV Faktor für Satzspiegelberechnung - muss bei anderen Schriftgrößen als 11pt angepasst werden , sie Doku zu KOMA Script
+  pagesize,% write pagesize to DVI or PDF
+  fontsize=11pt,% use this font size
+  paper=a4,% use ISO A4
+]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[sfdefault, scaled=.95, book]{FiraSans}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[ngerman]{babel}
+\usepackage{microtype}% optischer Randausgleich etc.
+\usepackage[nonumber]{cuisine}
+\usepackage{nicefrac}
+
+\selectlanguage{ngerman}
+\pagenumbering{gobble}
+
+\begin{document}
+\begin{recipe}{BBQ-Butter} {250g} {10 Minuten}
+
+\freeform
+\textit{Ergibt eine würzig scharfe BBQ-Butter.}
+
+\ingredient[250]{g}{Butter}
+\ingredient[4]{EL}{Paprikamark oder Ajvar}
+\ingredient[1]{EL}{Worcestersauce}
+\ingredient[1]{EL}{Senf scharf}
+\ingredient[3]{EL}{Paprikapulver}
+\ingredient[1]{TL}{Salz}
+\ingredient[1]{TL}{Paprikaflocken}
+\ingredient[]{}{Pfeffer}
+\ingredient[]{}{Cayennepfeffer}
+\ingredient[]{}{Chilipulver}
+
+Zuerst die weiche Butter cremig schlagen.
+Alle weiteren Zutaten zugeben und gut vermischen, bis eine homogene Masse entsteht.
+Anschließend nach Bedarf mit Pfeffer, Cayennepfeffer und Chilipulver abschmecken.
+
+\newstep
+Über Nacht im Kühlschrank ziehen lassen.
+
+\freeform
+\hrulefill
+
+\freeform 
+\textbf{Haltbarkeit:}
+Hält sich im Kühlschrank ca. 1 Woche.
+
+\freeform 
+\textbf{Tipp:}
+Paprikapulver für die Butter aus Paprika edelsüß, Paprika rosenscharf und Pimentón de la Vera mischen.
+
+\end{recipe}
+\end{document}
