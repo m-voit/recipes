@@ -1,0 +1,57 @@
+\documentclass[
+  DIV=11,% DIV Faktor für Satzspiegelberechnung - muss bei anderen Schriftgrößen als 11pt angepasst werden , sie Doku zu KOMA Script
+  pagesize,% write pagesize to DVI or PDF
+  fontsize=11pt,% use this font size
+  paper=a4,% use ISO A4
+]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[sfdefault, scaled=.95, book]{FiraSans}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[ngerman]{babel}
+\usepackage{microtype}% optischer Randausgleich etc.
+\usepackage[nonumber]{cuisine}
+\usepackage{nicefrac}
+
+\selectlanguage{ngerman}
+\pagenumbering{gobble}
+
+\begin{document}
+\begin{recipe}{Knoblauch-Joghurt-Sauce} {250ml} {30 Minuten}
+
+\freeform
+\textit{Ergibt eine Joghurt-Sauce mit Knoblauch Aromen.}
+
+\ingredient[150]{g}{Joghurt mild}
+\ingredient[100]{g}{Crème Fraîche}
+\ingredient[1]{EL}{Mayonnaise}
+
+Zuerst Joghurt, Crème Fraîche und Mayonnaise verrühren.
+
+\ingredient[2]{x}{Knoblauchzehen}
+\ingredient[1]{EL}{Dill}
+\ingredient[2]{EL}{Schnittlauch}
+\ingredient[1]{EL}{Zitronensaft}
+
+Knoblauchzehen schälen, hacken und unterrühren.
+Dill, Schnittlauch und Zitronensaft untermischen.
+
+\ingredient[]{}{Pfeffer schwarz}
+\ingredient[]{}{Meersalz}
+
+Mit Salz und Pfeffer abschmecken.
+In eine saubere Flasche füllen und anschließend über Nacht ziehen lassen.
+
+\freeform
+\hrulefill
+
+\freeform 
+\textbf{Haltbarkeit:}
+Hält sich im Kühlschrank eine Woche.
+
+\end{recipe}
+\end{document}
