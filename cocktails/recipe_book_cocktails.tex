@@ -1,0 +1,38 @@
+\documentclass[
+  DIV=11,% DIV Faktor für Satzspiegelberechnung - muss bei anderen Schriftgrößen als 11pt angepasst werden , sie Doku zu KOMA Script
+  pagesize,% write pagesize to DVI or PDF
+  fontsize=11pt,% use this font size
+  paper=a4,% use ISO A4
+  numbers=noenddot,
+]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[sfdefault, scaled=.95, book]{FiraSans}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[ngerman]{babel}
+\usepackage{microtype}% optischer Randausgleich etc.
+\usepackage[nonumber, index, contents]{cuisine}
+\usepackage{nicefrac}
+\usepackage{hyperref}% pdf links
+
+\selectlanguage{ngerman}
+
+\title{Rezepte für Cocktails}
+\author{Markus Voit}
+
+\begin{document}
+
+\maketitle
+\clearpage
+\tableofcontents
+\clearpage
+
+\section{Mai Tai}
+\input{./recipes/recipe_mai_tai_original}
+\input{./recipes/recipe_mai_tai_custom}\newpage
+
+\end{document}
