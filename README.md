@@ -2,13 +2,13 @@
 
 Recipe books written with LaTeX and the LaTeX package cuisine.
 
-## Recipe book
-
-A collection of recipes for cooking meals.
-
 ## Recipe book cocktails
 
 A collection of recipes for cocktails.
+
+## Recipe book cooking
+
+A collection of recipes for cooking meals.
 
 ### Latex setup (Portable distributions)
 
