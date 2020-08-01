@@ -1,6 +1,6 @@
 # Recipes
 
-Recipes written with LaTeX and the LaTeX package cuisine.
+A personal collection of recipes written in LaTeX using the LaTeX package cuisine.
 
 ## Recipe books
 
