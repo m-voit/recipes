@@ -1,6 +1,13 @@
 # Recipes
 
-Recipe books written with LaTeX and the LaTeX package cuisine.
+Recipes written with LaTeX and the LaTeX package cuisine.
+
+## Recipe books
+
+The repository contains the following recipe books.
+
+- [Cocktails](../blob/master/recipe-book-cocktails/recipe-book-cocktails.pdf)
+- [Cocking](../blob/master/recipe-book-cooking/recipe-book-cooking.pdf)
 
 ## Setup and Requirements
 
@@ -15,11 +22,3 @@ Or use portable editions and create the following path variables.
 - Set Perl PATH Variable `<path-to-perl>\<perl-version>\perl\site\bin`
 - Set Perl PATH Variable `<path-to-perl>\<perl-version>\perl\bin`
 - Set Perl PATH Variable `<path-to-perl>\<perl-version>\c\bin`
-
-## Recipe book cocktails
-
-A collection of cocktail recipes.
-
-## Recipe book cooking
-
-A collection of cooking recipes.
