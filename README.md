@@ -6,8 +6,8 @@ A personal collection of recipes written in LaTeX using the LaTeX package cuisin
 
 The repository contains the following recipe books.
 
-- [Cocktails](../blob/master/recipe-book-cocktails/recipe-book-cocktails.pdf)
-- [Cocking](../blob/master/recipe-book-cooking/recipe-book-cooking.pdf)
+- [Cocktails](https://github.com/m-voit/recipes/blob/master/recipe-book-cocktails/recipe-book-cocktails.pdf)
+- [Cocking](https://github.com/m-voit/recipes/blob/master/recipe-book-cooking/recipe-book-cooking.pdf)
 
 ## Setup and Requirements
 
