@@ -2,12 +2,12 @@
 
 A personal collection of recipes written in LaTeX using the LaTeX package cuisine.
 
-## Recipe books
+## Recipe collections
 
-The repository contains the following recipe books.
+The repository contains the following recipe collections.
 
-- [Cocktails](https://github.com/m-voit/recipes/blob/master/recipe-book-cocktails/recipe-book-cocktails.pdf)
-- [Cocking](https://github.com/m-voit/recipes/blob/master/recipe-book-cooking/recipe-book-cooking.pdf)
+- [Cocktail recipes](https://github.com/m-voit/recipes/blob/master/recipe-book-cocktails/recipe-book-cocktails.pdf)
+- [Cooking recipes](https://github.com/m-voit/recipes/blob/master/recipe-book-cooking/recipe-book-cooking.pdf)
 
 ## Setup and Requirements
 
