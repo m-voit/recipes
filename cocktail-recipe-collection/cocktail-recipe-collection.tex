@@ -1,7 +1,7 @@
 \documentclass[
-  DIV=11,% DIV Faktor für Satzspiegelberechnung - muss bei anderen Schriftgrößen als 11pt angepasst werden , sie Doku zu KOMA Script
-  pagesize,% Write pagesize to PDF.
-  fontsize=11pt,
+  DIV=11,% DIV factor for print space calculation, see KOMA Script documentation.
+  pagesize,% Write pagesize to DVI or PDF.
+  fontsize=11pt,% Use this font size.
   paper=a4,% Use ISO A4
   numbers=noenddot,
 ]{scrartcl}
@@ -17,23 +17,28 @@
 \usepackage{microtype}% Optical margin alignment.
 \usepackage[nonumber, index, contents]{cuisine}
 \usepackage{nicefrac}
-\usepackage{hyperref}% Add links to generated pdf.
+
+% Add links to generated PDF.
+\usepackage[
+  colorlinks=false,
+  pdfborder={0 0 0},
+  breaklinks=true
+]{hyperref}
 
 \selectlanguage{ngerman}
 
-\title{Cocktail recipes}
+\title{Cocktailrezepte}
 \author{Markus Voit}
 
 \begin{document}
 
 \maketitle
-\clearpage
+
 \tableofcontents
 \clearpage
 
 \section{Strong Cocktails}
-\input{./recipes/recipe-mai-tai}\newpage
-\input{./recipes/recipe-mai-tai-waldi}\newpage
-\input{./recipes/recipe-long-island-ice-tea}\newpage
+\input{../recipes/recipe-mai-tai}\newpage
+\input{../recipes/recipe-long-island-ice-tea}\newpage
 
 \end{document}

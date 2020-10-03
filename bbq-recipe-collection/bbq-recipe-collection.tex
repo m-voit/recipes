@@ -1,0 +1,77 @@
+\documentclass[
+  DIV=11,% DIV factor for print space calculation, see KOMA Script documentation.
+  pagesize,% Write pagesize to DVI or PDF.
+  fontsize=11pt,% Use this font size.
+  paper=a4,% Use ISO A4
+  numbers=noenddot,
+]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[sfdefault, scaled=.95, book]{FiraSans}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[ngerman]{babel}
+\usepackage{microtype}% Optical margin alignment.
+\usepackage[nonumber, index, contents]{cuisine}
+\usepackage{nicefrac}
+
+% Add links to generated PDF.
+\usepackage[
+  colorlinks=false,
+  pdfborder={0 0 0},
+  breaklinks=true
+]{hyperref}
+
+\selectlanguage{ngerman}
+
+\title{Grillrezepte}
+\author{Markus Voit}
+
+\begin{document}
+
+\maketitle
+\clearpage
+
+\tableofcontents
+\clearpage
+
+\section{BBQ-Butter}
+\input{../recipes/recipe-bbq-butter}\newpage
+\input{../recipes/recipe-chipotle-chili-butter}\newpage
+\input{../recipes/recipe-garlic-butter}\newpage
+\input{../recipes/recipe-herb-butter}\newpage
+\input{../recipes/recipe-lime-butter}\newpage
+
+\section{BBQ-Marinaden}
+\input{../recipes/recipe-beef-marinade}\newpage
+\input{../recipes/recipe-chicken-marinade}\newpage
+\input{../recipes/recipe-pork-marinade}\newpage
+
+\section{BBQ-Saucen}
+\input{../recipes/recipe-bbq-beer-sauce}\newpage
+\input{../recipes/recipe-bbq-sauce}\newpage
+\input{../recipes/recipe-chili-chutney}\newpage
+\input{../recipes/recipe-fiery-salsa-sauce}\newpage
+\input{../recipes/recipe-garlic-yogurt-sauce}\newpage
+\input{../recipes/recipe-herb-sauce}\newpage
+\input{../recipes/recipe-mango-pineapple-sauce}\newpage
+
+\section{Beilagen}
+\input{../recipes/recipe-coleslaw}\newpage
+\input{../recipes/recipe-herb-bread}\newpage
+\input{../recipes/recipe-fried-potatoes}\newpage
+
+\section{Dips}
+\input{../recipes/recipe-sour-cream-dip}\newpage
+
+\section{Nachspeisen}
+\input{../recipes/recipe-panna-cotta}\newpage
+\input{../recipes/recipe-tiramisu}\newpage
+\input{../recipes/recipe-vanilla-sauce}\newpage
+\input{../recipes/recipe-yeast-dumplings}\newpage
+\input{../recipes/recipe-yoghurt-bomb}\newpage
+
+\end{document}
