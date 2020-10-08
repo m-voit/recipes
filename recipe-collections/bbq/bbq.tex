@@ -1,0 +1,69 @@
+\documentclass[
+  DIV=11,% DIV factor for print space calculation, see KOMA Script documentation.
+  pagesize,% Write pagesize to DVI or PDF.
+  fontsize=11pt,% Use this font size.
+  paper=a4,% Use ISO A4
+  numbers=noenddot,
+]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[sfdefault, scaled=.95, book]{FiraSans}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[ngerman]{babel}
+\usepackage{microtype}% Optical margin alignment.
+\usepackage[nonumber, index, contents]{cuisine}
+\usepackage{nicefrac}
+
+% Add links to generated PDF.
+\usepackage[
+  colorlinks=false,
+  pdfborder={0 0 0},
+  breaklinks=true
+]{hyperref}
+
+\selectlanguage{ngerman}
+
+\title{Grillrezepte}
+\author{Markus Voit}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\clearpage
+
+\section{Beilagen}
+\input{../../recipes/coleslaw}\newpage{}
+\input{../../recipes/herb-bread}\newpage{}
+\input{../../recipes/fried-potatoes}\newpage{}
+
+\section{Butter}
+\input{../../recipes/bbq-butter}\newpage{}
+\input{../../recipes/chipotle-chili-butter}\newpage{}
+\input{../../recipes/garlic-butter}\newpage{}
+\input{../../recipes/herb-butter}\newpage{}
+\input{../../recipes/lime-butter}\newpage{}
+
+\section{Marinaden}
+\input{../../recipes/beef-marinade}\newpage{}
+\input{../../recipes/chicken-marinade}\newpage{}
+\input{../../recipes/pork-marinade}\newpage{}
+
+\section{Saucen}
+\input{../../recipes/bbq-sauce}\newpage{}
+\input{../../recipes/bbq-beer-sauce}\newpage{}
+\input{../../recipes/chili-chutney}\newpage{}
+\input{../../recipes/fiery-salsa-sauce}\newpage{}
+\input{../../recipes/garlic-yogurt-sauce}\newpage{}
+\input{../../recipes/herb-sauce}\newpage{}
+\input{../../recipes/mango-pineapple-sauce}\newpage{}
+
+\section{Dips}
+\input{../../recipes/sour-cream-dip}\newpage{}
+
+\end{document}
