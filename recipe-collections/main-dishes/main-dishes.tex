@@ -17,17 +17,12 @@
 \usepackage{microtype}% Optical margin alignment.
 \usepackage[nonumber, index, contents]{cuisine}
 \usepackage{nicefrac}
-
-% Add links to generated PDF.
-\usepackage[
-  colorlinks=false,
-  pdfborder={0 0 0},
-  breaklinks=true
-]{hyperref}
+\usepackage{fontawesome5}
+\usepackage[colorlinks=false, pdfborder={0 0 0}, breaklinks=true]{hyperref}% Add links to generated PDF.
 
 \selectlanguage{ngerman}
 
-\title{Kochrezepte}
+\title{Hauptgerichte}
 \author{Markus Voit}
 
 \begin{document}
@@ -37,24 +32,18 @@
 \tableofcontents
 \clearpage
 
-\section{Backen}
-\input{../../recipes/buns}\newpage{}
+\section{Exotisch}
+\input{../../recipes/thai-curry}\newpage{}
 
 \section{Burger}
-\input{../../recipes/burger-buns}\newpage{}
 \input{../../recipes/whiskey-cheeseburger}\newpage{}
 
 \section{Deftig}
-\input{../../recipes/bread-dumplings}\newpage{}
-\input{../../recipes/fried-potatoes}\newpage{}
 \input{../../recipes/goulash.tex}\newpage{}
 \input{../../recipes/onion-roastbeef}\newpage{}
 
 \section{Pasta}
 \input{../../recipes/dried-tomato-pasta}\newpage{}
 \input{../../recipes/gorgonzola-pasta}\newpage{}
-
-\section{Salat-Dressings}
-\input{../../recipes/honey-mustard-dressing}\newpage{}
 
 \end{document}

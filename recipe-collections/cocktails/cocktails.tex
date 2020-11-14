@@ -17,13 +17,8 @@
 \usepackage{microtype}% Optical margin alignment.
 \usepackage[nonumber, index, contents]{cuisine}
 \usepackage{nicefrac}
-
-% Add links to generated PDF.
-\usepackage[
-  colorlinks=false,
-  pdfborder={0 0 0},
-  breaklinks=true
-]{hyperref}
+\usepackage{fontawesome5}
+\usepackage[colorlinks=false, pdfborder={0 0 0}, breaklinks=true]{hyperref}% Add links to generated PDF.
 
 \selectlanguage{ngerman}
 
@@ -37,8 +32,13 @@
 \tableofcontents
 \clearpage
 
+\section{Gin}
+\input{../../recipes/london-buck}\newpage{}
+\input{../../recipes/tom-collins}\newpage{}
+
 \section{Strong Cocktails}
-\input{../../recipes/mai-tai.tex}\newpage{}
-\input{../../recipes/long-island-ice-tea.tex}\newpage{}
+\input{../../recipes/long-island-ice-tea}\newpage{}
+\input{../../recipes/mai-tai}\newpage{}
+\input{../../recipes/planters-punch}\newpage{}
 
 \end{document}
