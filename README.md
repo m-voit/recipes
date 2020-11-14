@@ -6,8 +6,9 @@ A personal collection of recipes written in LaTeX using the LaTeX package cuisin
 
 - [BBQ](./recipe-collections/bbq/bbq.pdf)
 - [Cocktails](./recipe-collections/cocktails/cocktails.pdf)
-- [Cooking](./recipe-collections/cooking/cooking.pdf)
 - [Desserts](./recipe-collections/desserts/desserts.pdf)
+- [Main Dishes](./recipe-collections/main-dishes/main-dishes.pdf)
+- [Side Dishes](./recipe-collections/side-dishes/side-dishes.pdf)
 
 ## Setup and Requirements
 
@@ -18,7 +19,7 @@ Install the following software.
 
 Or use portable editions and create the following path variables.
 
-- Set MikTex PATH Variable `<path-to-miktex>\texmfs\install\miktex\bin`
-- Set Perl PATH Variable `<path-to-perl>\<perl-version>\perl\site\bin`
-- Set Perl PATH Variable `<path-to-perl>\<perl-version>\perl\bin`
-- Set Perl PATH Variable `<path-to-perl>\<perl-version>\c\bin`
+- `<path-to-miktex>\texmfs\install\miktex\bin`
+- `<path-to-perl>\<perl-version>\perl\site\bin`
+- `<path-to-perl>\<perl-version>\perl\bin`
+- `<path-to-perl>\<perl-version>\c\bin`
