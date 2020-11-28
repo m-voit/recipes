@@ -4,11 +4,8 @@ A personal collection of recipes written in LaTeX using the LaTeX package cuisin
 
 ## Recipe collections
 
-- [BBQ](./recipe-collections/bbq/bbq.pdf)
-- [Cocktails](./recipe-collections/cocktails/cocktails.pdf)
-- [Desserts](./recipe-collections/desserts/desserts.pdf)
-- [Main Dishes](./recipe-collections/main-dishes/main-dishes.pdf)
-- [Side Dishes](./recipe-collections/side-dishes/side-dishes.pdf)
+- [Cooking](./recipes-pdf/cooking.pdf)
+- [Cocktails](./recipes-pdf/cocktails.pdf)
 
 ## Setup and Requirements
 
